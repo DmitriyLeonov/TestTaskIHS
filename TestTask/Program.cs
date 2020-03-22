@@ -59,7 +59,6 @@ namespace ConsoleApplication5
                 });
                 letters = "";
                 numbers = "";
-                Console.WriteLine(line);
             }
             var result = populations.GroupBy(x => x.City)
                     .Select(x => new Population
